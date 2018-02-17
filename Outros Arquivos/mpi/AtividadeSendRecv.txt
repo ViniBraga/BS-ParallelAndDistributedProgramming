@@ -1,7 +1,0 @@
-Atividade com MPI
-
-Criar e executar um programa no qual o processo com rank 0 envia números de 1 até 100 para os outros processos utilizando a rotina MPI_Send.
-Os outros processos recebem os números utilizando a rotina MPI_Recv. Cada processo deve contar o número de valores recebidos que são divisíveis pelo seu rank.
-Quando o processo de rank 0 terminar de enviar os números, envia o valor -1 para os outros processos, que, por sua vez, devem parar de receber números.
-No final, o processo 0 imprime seu rank e a quantidade de valores recebidos que são divisíveis pelo seu rank. (Nos slides de aula tem exemplo de
-envio e recebimento de valores com MPI_Send e MPI_Recv).
