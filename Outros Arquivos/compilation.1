@@ -1,0 +1,7 @@
+
+rpcgen cbcast.x
+
+gcc cbcast_svc.c cbcast_clnt.c cbcast_server.c -o cbcast_server -lpthread
+
+gcc cbcast_client.c cbcast_clnt.c -o cbcast_client 
+

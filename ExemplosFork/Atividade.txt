@@ -1,0 +1,6 @@
+Atividade com Fork
+
+Implementar um programa em C que leia números do teclado e cria dois processos filhos utilizando a chamada de sistema Fork.
+Depois o processo pai envia cada número digitado para um dos filhos. O filho deve dizer se o número é primo ou não.
+Quando o filho termina, envia uma resposta informando ao pai que está pronto para receber novo trabalho.
+O filho imprime o número e se ele é ou nao primo.
